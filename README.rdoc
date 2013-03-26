@@ -1,0 +1,29 @@
+== Facebook + OAuth + Rails Boilerplate
+
+Simple boilerplate to let you set up a Ruby on Rails application with built-in facebook integration.
+
+Once forked, go to +initializers/omniauth.rb'
+
+  OmniAuth.config.logger = Rails.logger
+
+	Rails.application.config.middleware.use OmniAuth::Builder do
+	  provider :facebook, 'APP ID', 'APP SECRET'
+	end
+
+Fill in the +APP ID+ and the +APP SECRET+ with the relevant information for your facebook application, and you're done! 
+New users, intuitively, are stored in the +User+ model and sessions are manipulated from the +sessions_controller+.
+
+In application.html.rb you'll find some pre-written code:
+
+  <div id="user_nav">
+    <% if current_user %>
+      Signed in as <strong><%= current_user.name %></strong>!
+      <%= link_to "Sign out", signout_path, id: "sign_out" %>
+      <% else %>
+      <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+    <% end %>
+  </div>
+
+This gives you the relevant links to sign in/out. 
+
+Feedback/suggestions/additions welcome!

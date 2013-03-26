@@ -1,0 +1,358 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 01:51:29 -0500
+Connecting to database specified by database.yml
+Processing by FeedsController#home as HTML
+  Rendered feeds/home.html.erb within layouts/application (2.8ms)
+Compiled feeds.css  (37ms)  (pid 12188)
+Compiled application.css  (44ms)  (pid 12188)
+Compiled jquery.js  (1ms)  (pid 12188)
+Compiled jquery_ujs.js  (0ms)  (pid 12188)
+Compiled feeds.js  (421ms)  (pid 12188)
+Compiled application.js  (453ms)  (pid 12188)
+Completed 200 OK in 616ms (Views: 615.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 01:51:30 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2013-03-26 01:51:30 -0500
+Served asset /feeds.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 01:51:30 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 01:51:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2013-03-26 01:51:30 -0500
+Served asset /feeds.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 01:51:30 -0500
+Served asset /application.js - 200 OK (8ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (152.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (169.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (25.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateUsers (20130326065736)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar(255), "uid" varchar(255), "name" varchar(255), "oauth_token" varchar(255), "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130326065736')[0m
+  [1m[35m (158.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 02:01:12 -0500
+Connecting to database specified by database.yml
+Processing by FeedsController#home as HTML
+  Rendered feeds/home.html.erb within layouts/application (2.9ms)
+Compiled sessions.css  (29ms)  (pid 12461)
+Compiled application.css  (37ms)  (pid 12461)
+Compiled sessions.js  (166ms)  (pid 12461)
+Compiled application.js  (209ms)  (pid 12461)
+Completed 200 OK in 350ms (Views: 349.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 02:01:13 -0500
+Processing by FeedsController#home as HTML
+  Rendered feeds/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:13 -0500
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:13 -0500
+Served asset /feeds.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:13 -0500
+Served asset /sessions.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:13 -0500
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:13 -0500
+Served asset /feeds.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:13 -0500
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:13 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 02:01:22 -0500
+Processing by FeedsController#home as HTML
+  Rendered feeds/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:22 -0500
+Served asset /feeds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:22 -0500
+Served asset /feeds.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:22 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:22 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:22 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:22 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-26 02:01:23 -0500
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 02:01:45 -0500
+Processing by FeedsController#home as HTML
+  Rendered feeds/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:45 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:45 -0500
+Served asset /feeds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:45 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:45 -0500
+Served asset /feeds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:45 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:45 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-03-26 02:01:46 -0500
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?state=1131722c5adb18f368032e17dbb83a4163a3f855e1c8d446&code=AQC_fJYLCQ6VaTEbf2wETxNcSygrEyxP3krsjYVDfe7f6-DMjAjdgHfGm-AuqqJryQWhxRTuVaHFcAUY3u3a82Qy-ReAuRMe_SSrLvEYIuCIOQ9aVdbmMbtZOpwIe9p2ULBuDklK8-MIzfw5f-N1SrZ6w_frw5qrHV37Hbq1YcGhiPSHIjjVWdN176IOaSpWXX74EOKcPC5JOCVhzaU1Na1-" for 127.0.0.1 at 2013-03-26 02:01:48 -0500
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"1131722c5adb18f368032e17dbb83a4163a3f855e1c8d446", "code"=>"AQC_fJYLCQ6VaTEbf2wETxNcSygrEyxP3krsjYVDfe7f6-DMjAjdgHfGm-AuqqJryQWhxRTuVaHFcAUY3u3a82Qy-ReAuRMe_SSrLvEYIuCIOQ9aVdbmMbtZOpwIe9p2ULBuDklK8-MIzfw5f-N1SrZ6w_frw5qrHV37Hbq1YcGhiPSHIjjVWdN176IOaSpWXX74EOKcPC5JOCVhzaU1Na1-", "provider"=>"facebook"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '1245957806' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (7.7ms)[0m  [1mINSERT INTO "users" ("created_at", "name", "oauth_expires_at", "oauth_token", "provider", "uid", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 26 Mar 2013 07:01:49 UTC +00:00], ["name", "Danish Mughal"], ["oauth_expires_at", Sat, 25 May 2013 07:01:48 UTC +00:00], ["oauth_token", "AAAGQO2ZBS4KoBAMbWjQsaYJ6QpZCiw4UuN3JEde5OyZBZA1ADvmUwArfYwG3uAOuIc24ZBkj6PGZAx61ZBtwmnryYRVWxE9rNmP2vyu5p7r6gZDZD"], ["provider", "facebook"], ["uid", "1245957806"], ["updated_at", Tue, 26 Mar 2013 07:01:49 UTC +00:00]]
+  [1m[35m (197.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 340ms (ActiveRecord: 208.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 02:01:49 -0500
+Processing by FeedsController#home as HTML
+  Rendered feeds/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:50 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:50 -0500
+Served asset /feeds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:50 -0500
+Served asset /sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:50 -0500
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:50 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:50 -0500
+Served asset /feeds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:50 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Processing by FeedsController#home as HTML
+  Rendered feeds/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Served asset /feeds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Served asset /feeds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 02:01:57 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 02:02:26 -0500
+Processing by FeedsController#home as HTML
+  Rendered feeds/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-03-26 02:02:26 -0500
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 02:02:26 -0500
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 02:02:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2013-03-26 02:02:26 -0500
+Served asset /feeds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 02:02:26 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2013-03-26 02:02:26 -0500
+Served asset /feeds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-03-26 02:02:26 -0500
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 02:02:26 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-26 02:07:06 -0500
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+Compiled static_pages.css  (7ms)  (pid 12783)
+Compiled application.css  (36ms)  (pid 12783)
+Compiled static_pages.js  (157ms)  (pid 12783)
+Compiled application.js  (167ms)  (pid 12783)
+Completed 200 OK in 302ms (Views: 301.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-26 02:07:07 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-26 02:07:07 -0500
+Served asset /jquery.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-26 02:07:07 -0500
+Served asset /static_pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-26 02:07:07 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-03-26 02:07:07 -0500
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-03-26 02:07:07 -0500
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-26 02:07:07 -0500
+Served asset /static_pages.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-26 02:07:07 -0500
+Served asset /application.js - 304 Not Modified (11ms)
