@@ -5,15 +5,14 @@ Simple boilerplate to let you set up a Ruby on Rails application with built-in f
 Once forked, go to +initializers/omniauth.rb'
 
   OmniAuth.config.logger = Rails.logger
+  Rails.application.config.middleware.use OmniAuth::Builder do
+    provider :facebook, 'APP ID', 'APP SECRET'
+  end
 
-	Rails.application.config.middleware.use OmniAuth::Builder do
-	  provider :facebook, 'APP ID', 'APP SECRET'
-	end
-
-Fill in the +APP ID+ and the +APP SECRET+ with the relevant information for your facebook application, and you're done! 
+Fill in the +APP_ID+ and the +APP_SECRET+ with the relevant information for your facebook application, and you're done! 
 New users, intuitively, are stored in the +User+ model and sessions are manipulated from the +sessions_controller+.
 
-In application.html.rb you'll find some pre-written code:
+In +application.html.erb+ you'll find some pre-written code:
 
   <div id="user_nav">
     <% if current_user %>
