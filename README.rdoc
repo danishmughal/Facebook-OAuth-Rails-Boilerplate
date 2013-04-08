@@ -2,7 +2,7 @@
 
 Simple boilerplate to let you set up a Ruby on Rails application with built-in facebook integration.
 
-Once forked, go to +initializers/omniauth.rb'
+Once forked, go to +initializers/omniauth.rb+
 
   OmniAuth.config.logger = Rails.logger
   Rails.application.config.middleware.use OmniAuth::Builder do
